@@ -3,6 +3,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;1,300;1,400&display=swap');
 
 
+body {
+    overflow-x: hidden;
+    width: 100%;
+}
+
 @keyframes run {
     0%{
         left:1px;
@@ -402,4 +407,33 @@ hr.solid {
     #celphone {
         display: none;
     }
+}
+
+@media only screen and (max-width: 398px){
+    #celphone {
+       left: 10;
+       align-items: center;
+    }
+}
+
+@media only screen and (max-width: 398px){
+    #stateart2{
+        font-size: smaller;
+       
+    }
+       
+    @media only screen and (max-width: 398px){
+        .stateart{
+            font-size: smaller;
+           margin-left: 10px;
+        }
+
+        @media only screen and (max-width: 398px){
+            .real{
+                font-size: smaller;
+                margin-left: 10px;
+            }
+               
+           
+
 }
